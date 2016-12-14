@@ -1,0 +1,31 @@
+<h3>Bienvenido a  <%= title %></h3>
+<div class="datagrid"><table border="1" width="70%">
+<thead><tr>
+       <th>id</th>
+       <th>Tipo Reclamo</th>
+       <th>Observacion</th>
+       <th>Fecha</th>
+    </thead> 
+<tfoot><tr><td colspan="4"><div id="paging">
+<ul><li><a href="#"><span>Anterior</span></a></li>
+<li><a href="#" class="active"><span>1</span></a></li>
+<li><a href="#"><span>2</span></a></li>
+<li><a href="#"><span>3</span></a></li>
+<li><a href="#"><span>4</span></a></li>
+<li><a href="#"><span>5</span></a></li>
+<li><a href="#"><span>Siguiente</span></a></li></ul></div></tr></tfoot>
+<tbody>
+<% var  i;for(i=0; i< reclamos.length; i++) { %>
+<% if(i%2==0) {%>
+<tr>
+<% } else {%>
+<tr class="alt">
+<% } %>
+       <td><%= i %></td>
+       <td><%= reclamos[i].tipoReclamo %></td>
+       <td><%= reclamos[i].observacion %></td>
+       <td><%= reclamos[i].fecha %></td>
+    </tr>   
+<% } %>
+</tbody>
+</table>

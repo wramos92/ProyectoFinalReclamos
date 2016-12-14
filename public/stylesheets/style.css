@@ -1,0 +1,380 @@
+
+* {
+margin: 0;
+padding: 0;}
+
+body {
+font: 12px sans-serif;
+}
+
+#page-wrap {
+margin: 2% auto;
+height:500px;
+border: 5px solid #999;
+box-shadow: 3px 3px 7px rgba(18,180,255,0.8);
+}
+
+#page-wrap>  .main {
+border: 1px solid #999;
+ padding: 1%;
+ margin-bottom: 1px;
+color: black;
+}
+
+section > div {
+padding: 10px;
+}
+
+header, nav, section{
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3BA6DB ), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #3BA6DB 5%, #00557F 100% );
+text-align: center;
+height: 120px;
+width: 100%;
+}
+
+footer {
+background: #eee;
+
+		object-position: center;
+		
+		position: relative;
+		top:-90px;
+		left: 0%;
+		width: 100%;
+		text-shadow:3px 3px 7px rgba(18,180,255,0.8);
+		font-weight:bold;
+
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3BA6DB ), color-stop(1, #00557F) );
+		background:-moz-linear-gradient( center top, #3BA6DB 5%, #00557F 100% );
+
+		text-align:center;
+		font-family:arial, helvetica, sans-serif;
+		line-height:2;
+		margin:0px;
+		padding:30px;
+}
+
+nav span {
+margin: 0px 10px 0px 0px;
+}
+
+.main form{
+ border: 1px solid #999;
+ border-radius: 30px;
+ background-color: rgba(255,255,255,0.8);
+ box-shadow: 0px 5px 10px #b5c1c5, 0 0 0 10px #999 inset;
+ width: 50%;
+ height: 100%;
+ padding-top: 20px;
+ position: relative;
+ left: 25%;
+ top:30px;
+ line-height:1.8;
+}
+
+.main form label{
+ display: block;
+font-weight: bold;
+}
+
+
+/* ***************************************** */
+/*          NO TOCAR MODELO DE TABLA         */
+/* ***************************************** */
+/*table{
+	margin:auto;
+	background-color: rgba(179,150,116,.5);
+	border-radius: 10px;
+	position: relative;
+	left: 0%;
+	top: 5%;
+	bottom: 2%;
+	height: 20%;
+}
+
+th{
+    font-size:16px;
+    font-family: Arial Narrow;
+    font-weight:bold;
+    background-color: rgba(179,150,116,.5);
+    color: rgb(138,47,26);
+}
+
+td{
+}
+*/
+
+.datagrid table {
+	 border-collapse: collapse;
+	 text-align: left;
+	 width: 100%;
+	 position: relative;
+ }
+ 
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	 background: #fff;
+	 overflow: hidden;
+	 border: 3px solid #006699;
+	 -webkit-border-radius: 8px;
+	 -moz-border-radius: 8px;
+	 border-radius: 8px;
+ }
+
+.datagrid table td, .datagrid table th {
+ padding: 4px 9px;
+ }
+
+.datagrid table thead th {
+
+background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#006699;
+ color:#FFFFFF;
+ font-size: 15px;
+ font-weight: bold;
+ border-left: 0px solid #0070A8;
+ }
+ 
+.datagrid table thead th:first-child {
+ border: none;
+
+ }
+
+.datagrid table tbody td {
+ color: #00496B;
+ border-left: 1px solid #E1EEF4;
+font-size: 15px;
+font-weight: normal;
+ }
+.datagrid table tbody .alt td {
+ background: #E1EEF4;
+ color: #00496B;
+ }
+.datagrid table tbody td:first-child {
+ border-left: none;
+ }
+.datagrid table tbody tr:last-child td {
+ border-bottom: none;
+ }
+.datagrid table tfoot td div {
+ border-top: 1px solid #006699;
+background: #E1EEF4;
+}
+ .datagrid table tfoot td {
+ padding: 0;
+ font-size: 12px }
+ .datagrid table tfoot td div{
+ padding: 2px;
+ }
+.datagrid table tfoot td ul {
+ margin: 0;
+ padding:0;
+ list-style: none;
+ text-align: right;
+ }
+.datagrid table tfoot  li {
+ display: inline;
+ }
+.datagrid table tfoot li a {
+ text-decoration: none;
+ display: inline-block;
+  padding: 2px 8px;
+ margin: 1px;
+color: #FFFFFF;
+border: 1px solid #006699;
+-webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#006699;
+position: relative;
+ }
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover {
+ text-decoration: none;
+border-color: #006699;
+ color: #FFFFFF;
+ background: none;
+ background-color:#00557F;
+}
+div.dhtmlx_window_active, div.dhx_modal_cover_dv {
+ position: fixed !important;
+ }
+
+
+
+h3{
+	position:relative;
+	left: 31%;
+	top: 5%;
+	bottom: 2%;
+	width: 30%;
+	height: 20%;
+	text-shadow:3px 3px 7px rgba(0,255,255,0.8);
+}
+
+.mycss
+		{
+		object-position: center;
+		position: relative;
+		left: 45%;
+		width: 30%;
+		text-shadow:3px 3px 7px rgba(255,255,255,0.9);
+		font-weight:bold;
+		color:rgba(0,0,0,0.5);		
+		background-color:rgba(255,255,255,0.5);
+		
+		border: 10px outset #3498db;
+		letter-spacing:6pt;
+		word-spacing:2pt;
+		font-size:24px;
+		text-align:center;
+		font-family:arial, helvetica, sans-serif;
+		line-height:2;
+		margin:0px;
+		padding:0px;
+		border: 3px solid #006699
+		}
+
+
+a.p {
+  /*background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  position: absolute; 
+  text-decoration: none;*/
+   text-decoration: none;
+   font-size: 16px;
+   color: white;
+   
+}
+
+.navdiv{
+	text-align: left;
+	font-weight: bolder;
+	display: block;
+	vertical-align: middle;
+	background: rgba(0,0,0,0.2);
+	background-image:url(..\images\home.png);
+	background-repeat:no-repeat;
+  	height:10px;
+  	width:10px;
+  	background-position:center;
+	margin: 10px 10px;
+	padding: 15px 30px;
+	width: 70%;
+	height: 15px;
+	border: 3px solid rgba(0,0,0,0.2);
+}
+
+.navdiv:hover{
+   	background: rgba(255,255,255,0.2);
+	border: 3px solid rgba(255,255,255,0.5);
+	cursor:pointer;
+	transition: 500ms;
+}
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+	position: relative;
+	top:10px;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+ text-decoration: none;
+border-color: #006699;
+ color: #FFFFFF;
+ background: none;
+ background-color:#1F97D3;
+ 	border: 3px solid rgba(255,255,255,0.5);
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+cursor: pointer;
+}
+.form-style-1 .required{
+	color:red;
+}
